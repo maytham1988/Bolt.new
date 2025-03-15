@@ -1,7 +1,9 @@
-name = "bolty"
-compatibility_flags = ["nodejs_compat"]
-compatibility_date = "2024-07-01"
-pages_build_output_dir = "./build/client"
-
-# نقطه ورودی
-main = "./routes/entry.server.tsx"  # مسیر فایل ورودی مناسب پروژه شما
+@@ -3,6 +3,5 @@ compatibility_flags = ["nodejs_compat"]
+ compatibility_date = "2024-07-01"
+ pages_build_output_dir = "./build/client"
+ 
+ # Optional: اضافه کردن تنظیمات مربوط به نحوه ساخت پروژه
+ [build]
+ command = "npm run build"  # یا دستور مناسب برای پروژه شما
+ # نقطه ورودی
+ main = "./routes/entry.server.tsx"  
