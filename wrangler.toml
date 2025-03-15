@@ -3,4 +3,4 @@ compatibility_date = "2024-07-01"
 pages_build_output_dir = "./build/client"
 
 # نقطه ورودی
-main = "./routes/entry.server.tsx"  # مسیر فایل ورودی مناسب پروژه شما
+main = "./routes/entry.server.tsx"
